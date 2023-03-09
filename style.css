@@ -1,0 +1,270 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background: rgb(43,110,138);
+    background: linear-gradient(221deg, rgba(43,110,138,1) 41%, rgba(30,186,141,1) 100%);
+}
+
+.fa-solid {
+    color: white;
+}
+
+nav #aboutMe, #skills, #projects, #contactMe {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+#homepage, #aboutMePage, #skillsPage, #projectsPage, #contactMePage {
+    padding-top: 80px;
+}
+
+#homepage p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FF6700;
+}
+
+#homepage #h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 73px;
+
+    background: linear-gradient(to right, #47C486 0%, #0E88CF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#homepage #h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 73px;
+
+    background: linear-gradient(to right, #ab3ab4 0%, #1dfd96 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#homepage a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #FFFFFF;
+
+    background: #57CD55;
+}
+
+#homepage img {
+    width: 80%;
+    padding: 10px;
+    background: rgb(43,110,138);
+    background: linear-gradient(221deg, rgba(43,110,138,1) 20%, rgba(50,198,177,1) 100%);
+}
+
+#aboutMePage {
+    background: rgb(70,83,200);
+    background: linear-gradient(221deg, rgba(70,83,200,1) 0%, rgba(239,86,86,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+#aboutMePage img {
+    width: 70%;
+    border-radius: 30px;
+}
+
+#aboutMePage h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+
+    background: linear-gradient(to right, #f8ff00 0%, #3ad59f 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+#aboutMePage h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+
+    background: linear-gradient(to right, #bb8adb 0%, #1dfdc7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+#aboutMePage p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    
+
+    background: linear-gradient(to right, #f8ff00 0%, #1dfde9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#skillsPage h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 73px;
+    
+    color: #F6756C;
+}
+
+#skillsPage img {
+    width: 100%;
+    height: 100%;
+}
+
+#skillsPage h4 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration-line: underline;
+
+    color: #000000;
+}
+
+#row {
+    display: flex;
+    align-items: center;
+}
+
+#projectsPage img{
+    height: 60vh;
+}
+
+#projectsPage h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 73px;
+    /* identical to box height */
+
+
+    color: #4653C8;
+}
+
+#projectsPage h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+
+    background: linear-gradient(to right, #ab3ab4 0%, #1dfd96 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#projectsContent {
+    padding: 3px;
+    background: #4653C8;
+}
+
+#backgroundImage {
+    background-image: url(./images/contact.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+
+#contactContainer {
+    height: 80vh;
+}
+
+#contactMePage h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 73px;
+    /* identical to box height */
+
+    color: #000000;
+
+}
+
+#contactMePage h1 {
+    background: linear-gradient(to right, #47C486 0%, #0E88CF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#contactMePage label{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+
+      
+}
+
+#contactMePage button{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    padding: 5px 20px;
+    border: transparent;
+
+    color: #FFFFFF;
+
+    background: #003554;
+}
+
+#footer {
+    background: #003554;
+    height: 11.5vh;
+}
+
+#footer h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+.fa-brands {
+    color: white;
+}
