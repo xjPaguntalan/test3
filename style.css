@@ -201,7 +201,7 @@ nav #aboutMe, #skills, #projects, #contactMe {
     background-image: url(./images/contact.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 93.6vh;
+    height: 80vh;
 }
 
 #contactContainer {
@@ -252,7 +252,7 @@ nav #aboutMe, #skills, #projects, #contactMe {
 
 #footer {
     background: #003554;
-    height: 11.5vh;
+    height: 12.5vh;
 }
 
 #footer h2{
