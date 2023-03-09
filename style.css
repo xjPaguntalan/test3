@@ -85,8 +85,8 @@ nav #aboutMe, #skills, #projects, #contactMe {
 }
 
 #aboutMePage {
-    background: rgb(70,83,200);
-    background: linear-gradient(221deg, rgba(70,83,200,1) 0%, rgba(239,86,86,1) 35%, rgba(0,212,255,1) 100%);
+    background: rgb(224,195,71);
+    background: linear-gradient(267deg, rgba(224,195,71,1) 33%, rgba(213,191,212,1) 100%);
 }
 
 #aboutMePage img {
@@ -101,7 +101,7 @@ nav #aboutMe, #skills, #projects, #contactMe {
     font-size: 40px;
     line-height: 48px;
 
-    background: linear-gradient(to right, #f8ff00 0%, #3ad59f 100%);
+    background: linear-gradient(to right, #bc07c7 0%, #251ecc 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
@@ -114,9 +114,10 @@ nav #aboutMe, #skills, #projects, #contactMe {
     font-size: 40px;
     line-height: 48px;
 
-    background: linear-gradient(to right, #bb8adb 0%, #1dfdc7 100%);
+    background: linear-gradient(to right, #FF4A52 0%, #07c78f 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
 
 }
 
@@ -128,7 +129,7 @@ nav #aboutMe, #skills, #projects, #contactMe {
     line-height: 24px;
     
 
-    background: linear-gradient(to right, #f8ff00 0%, #1dfde9 100%);
+    background: linear-gradient(to right, #d51c1c 0%, #4743c3 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -165,7 +166,7 @@ nav #aboutMe, #skills, #projects, #contactMe {
 }
 
 #projectsPage img{
-    height: 60vh;
+    height: 55vh;
 }
 
 #projectsPage h1{
@@ -201,11 +202,7 @@ nav #aboutMe, #skills, #projects, #contactMe {
     background-image: url(./images/contact.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 80vh;
-}
-
-#contactContainer {
-    height: 80vh;
+    height: 900px;
 }
 
 #contactMePage h1{
@@ -252,7 +249,6 @@ nav #aboutMe, #skills, #projects, #contactMe {
 
 #footer {
     background: #003554;
-    height: 13vh;
 }
 
 #footer h2{
@@ -260,7 +256,6 @@ nav #aboutMe, #skills, #projects, #contactMe {
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
-    line-height: 24px;
 
     color: #FFFFFF;
 }
@@ -268,3 +263,8 @@ nav #aboutMe, #skills, #projects, #contactMe {
 .fa-brands {
     color: white;
 }
+
+
+
+
+
